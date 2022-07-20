@@ -1,0 +1,10 @@
+v 3
+file . "spi_slave.vhd" "20220705015748.000" "20220719200258.059":
+  entity spi_slave at 1( 0) + 0 on 31;
+  architecture rtl of spi_slave at 16( 395) + 0 on 32;
+file . "shift_reg.vhd" "20220720000148.000" "20220719200254.329":
+  entity shift_reg at 1( 0) + 0 on 29;
+  architecture rtl of shift_reg at 18( 396) + 0 on 30;
+file . "spi_slave_tb.vhd" "20220705021134.000" "20220719200258.120":
+  entity spi_slave_tb at 1( 0) + 0 on 33;
+  architecture tb of spi_slave_tb at 8( 126) + 0 on 34;
